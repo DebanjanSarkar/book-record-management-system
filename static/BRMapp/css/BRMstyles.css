@@ -1,0 +1,105 @@
+/*---------------------- TAG SELECTORS --------------------*/
+body{
+  text-align: center;
+  background-color: #06113C;
+}
+
+hr{
+  border-style: none none double none;
+  border-width: 3px;
+  border-color: #733C3C;
+  opacity: 1;
+  background-color: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  margin: 20px;
+}
+
+h2{
+  font-family: "algerian";
+}
+
+table{
+  margin: 50px auto;
+  border: solid 2px black;
+}
+
+thead{
+  background-color: #DEB6AB;
+}
+
+th{
+  padding: 7px 20px;
+  font-size: 20px;
+  border: solid 2px black;
+}
+
+td{
+  font-weight: normal;
+  font-size: 18px;
+  padding: 20px;
+  border: solid 2px black;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+/*--------------------- CLASS SELECTORS -------------------*/
+.navbar-brand{
+  padding-left: 20px;
+}
+
+.USERNAME{
+  letter-spacing: 1px;
+}
+
+.main{
+  background-color: #F8ECD1;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.action-button{
+  background-color: #21ee24;
+  display: block;
+  margin: 25px auto;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.action-button:hover{
+  background-color: #29c52b;
+  display: block;
+  margin: 25px auto;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.login-table{
+  background-color: #C4DDFF;
+}
+
+/* .login-table-row{
+
+} */
+
+.login-table-cell{
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+}
+
+/*---------------------------------------------------------*/
