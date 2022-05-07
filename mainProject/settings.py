@@ -30,6 +30,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["debanjansarkar.herokuapp.com","127.0.0.1"]
 
+CSRF_TRUSTED_ORIGINS = ['https://debanjansarkar.herokuapp.com/']
+
+CSRF_COOKIE_DOMAIN = 'herokuapp.com'
 
 # Application definition
 
