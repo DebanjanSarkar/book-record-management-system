@@ -2,10 +2,12 @@ from django.shortcuts import render
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required
+from django.views.decorators.csrf import csrf_exempt
 from BRMapp import models,forms
 
 # Create your views here.
 
+@csrf_exempt
 def userLogin(request):
     data = {}
     if request.method=="POST":
